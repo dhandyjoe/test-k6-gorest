@@ -4,7 +4,7 @@ import { group } from 'k6'
 
 export const options = {
 	stages: [
-		{ duration: '30s', target: 10 }, // total virtual user pada durasi tertenu
+		{ duration: '20s', target: 10 }, // total virtual user pada durasi tertenu
 		{ duration: '5s', target: 0 },
 	],
 	thresholds: {
